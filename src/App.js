@@ -1,11 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
 import './help.css'
-import HelpSupportModal from './Help';
+import Footer from './Footer'
+import HelpSupportModal from './Help'
+
 function App() {
   return (
     <div className="App">
-  <HelpSupportModal />  
+      
+  <HelpSupportModal /> 
+   <Footer/>
     </div>
   );
 }
